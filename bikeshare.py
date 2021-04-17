@@ -193,7 +193,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def display_data(df):
+def display_raw_data(df):
     """Displays 5 rows of raw data after prompting the user"""
 
     user_choice = input("Would you like to see 5 rows of raw data from your city of choice? Type 'yes' to accept or anything else to skip ").lower()
@@ -229,7 +229,7 @@ def main():
             user_stats(df)
             print('\n')
         
-        display_data(df)
+        display_raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or anything else to skip. \n')
         if restart.lower() != 'yes':
