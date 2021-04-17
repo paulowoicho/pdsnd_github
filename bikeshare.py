@@ -231,8 +231,8 @@ def main():
         
         display_raw_data(df)
 
-        restart = input('\nWould you like to restart? Enter yes or anything else to skip. \n')
-        if restart.lower() != 'yes':
+        user_choice = input('\nWould you like to restart? Enter yes or anything else to skip. \n')
+        if user_choice.lower() != 'yes':
             break
 
 
