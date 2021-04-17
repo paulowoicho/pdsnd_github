@@ -15,6 +15,12 @@ They include:
 - new_york_city.csv : Bikeshare data for New York
 - washington.csv : Bikeshare data for Washington
 
+## Running the Project
+
+To test the project's functionality, you should run it in a virtual environment. You can read [this tutorial](https://docs.python.org/3/tutorial/venv.html) to learn how to create and activate virtual environments in python for your operating system.
+
+After activating your virtual environment, make sure you `cd` into the project directory and run `pip install -r requirements.txt` to install the relevant modules. You can then run `python bikeshare.py` to interact with the project!
+
 ### Credits
 - [Project Starter Repo](https://github.com/udacity/pdsnd_github)
 - [Nanodegree homepage](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
