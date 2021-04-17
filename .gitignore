@@ -1,3 +1,8 @@
+# datasets
 chicago.csv
 new_york_city.csv
 washington.csv
+
+#virtual environment directory
+.vscode
+bikeshare-env
